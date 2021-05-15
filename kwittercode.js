@@ -1,8 +1,8 @@
-var = "lala123";
+var password= "lala123";
 
 function addUser() {
     
-    if (password == var) {
+    if (password == var password) {
     user_name = document.getElementById("user_name").value;
     localStorage.setItem("user_name", user_name);
     window.location = "kwitter_room.html";
