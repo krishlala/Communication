@@ -1,7 +1,6 @@
-var password= "lala123";
-
 function addUser() {
-    
+    var password= "lala123";
+
     if (password == password) {
     user_name = document.getElementById("user_name").value;
     localStorage.setItem("user_name", user_name);
