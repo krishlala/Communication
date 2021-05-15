@@ -5,8 +5,7 @@ function addUser() {
     localStorage.setItem("user_name", user_name);
     window.location = "kwitter_room.html";
         
-        else {
+    } else {
             console.log("You suck Krish! It didn't work!")
         }
-}
 }
