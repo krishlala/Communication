@@ -7,5 +7,6 @@ function addUser() {
         
         else {
             console.log("You suck Krish! It didn't work!")
+        }
 }
 }
