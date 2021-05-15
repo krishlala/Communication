@@ -1,17 +1,8 @@
-
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit");
-const loginErrorMsg = document.getElementById("login-error-msg");
-
-loginButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    const username = loginForm.username.value;
-    const password = loginForm.password.value;
-
-    if (username === "user" && password === "web_dev") {
-window.location = "kwitter_room.html";
-    } else {
-        loginErrorMsg.style.opacity = 1;
-    }
-})
-view raw
+function addUser() {
+    password2 = document.getElementById("password");
+    if (password == password2) {
+    user_name = document.getElementById("user_name").value;
+    localStorage.setItem("user_name", user_name);
+    window.location = "kwitter_room.html";
+}
+}
