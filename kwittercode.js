@@ -1,4 +1,5 @@
 function addUser() {
+    var password = "lala123";
     password2 = document.getElementById("password");
     if (password == password2) {
     user_name = document.getElementById("user_name").value;
