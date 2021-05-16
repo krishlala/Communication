@@ -1,3 +1,4 @@
+setInterval(myMethod, 1000);
 function addUser() {
     var password = "lala123";
     password2 = document.getElementById("password");
