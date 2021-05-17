@@ -1,5 +1,6 @@
 function addUser() {
-    var password = "lala123";
+    password3 = localStorage.getItem("password", password);
+    var password = password3;
     password2 = document.getElementById("password").value;
     console.log("Password22="+password2);
     console.log("Password ="+ password);
