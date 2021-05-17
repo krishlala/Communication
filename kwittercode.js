@@ -13,6 +13,3 @@ function addUser() {
         console.log("In ELSE");
         }
 }
-
-function nextPage() {
-    window.location = "account.html";
